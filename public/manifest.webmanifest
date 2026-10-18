@@ -1,0 +1,14 @@
+{
+  "name": "Betdesk",
+  "short_name": "Betdesk",
+  "description": "Ideas for the webshop become tested bets.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f6",
+  "theme_color": "#0f7a52",
+  "icons": [
+    { "src": "/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

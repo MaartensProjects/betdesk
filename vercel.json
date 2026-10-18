@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.mjs": {
+      "maxDuration": 300,
+      "includeFiles": "public/**"
+    }
+  },
+  "rewrites": [{ "source": "/:route*", "destination": "/api?route=:route*" }],
+  "crons": [{ "path": "/cron/sync", "schedule": "0 6 * * *" }]
+}
